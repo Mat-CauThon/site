@@ -1,0 +1,61 @@
+
+body{
+    background-color: bisque;
+    background-image: url(images/background.png);
+}
+#Register {
+    position: absolute;
+    width: 280px;
+    height: 160px;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    margin-left: -140px;
+    margin-top: -80px;
+}
+
+
+
+#login {
+    margin-left: 50px;
+    
+    border-radius: 5px;
+}
+
+
+#password {
+    margin-left: 51px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#Login1 {
+    width: 70px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 50px;
+    background-color: skyblue;
+    border-color: skyblue;
+    border-radius: 5px;
+    
+}
+#reg {
+    width: 70px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 50px;
+    background-color: skyblue;
+    border-color: skyblue;
+    border-radius: 5px;
+    
+}
+
+#Appname {
+    margin-left: 105px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#sub_ {
+    margin-left: 55px;
+    
+}

@@ -1,0 +1,137 @@
+
+body{
+    background-color: bisque;
+    background-image: url(images/background.png);
+   
+    
+ 
+}
+
+#header {
+    background-color: white;  
+   
+  
+    width: 100%;
+    height: 155px;
+    background-image: url(images/header.png);
+
+    
+}
+
+.logo {
+    
+       position: absolute;;
+    width: 141px;
+    height: 122px;
+    max-width: 141px;
+    margin-left: 20px;
+    margin-top: 15px; 
+  
+}
+
+
+
+.blog {
+    top: 0;
+    left 200;
+   
+}
+
+#search {
+    width: 300px;
+    height: 25px;
+    
+    position: absolute;
+    margin-left: 1300px;
+    display: block;
+    max-width: 300px;
+    margin-top: 110px;    
+
+}
+
+#search_type {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgba(211, 211, 211, 0.56);
+  
+}
+
+
+#add_new {
+   position: absolute;
+    margin-top: 70px;
+    margin-left: 1300px;
+}
+
+#add_but {
+    
+    width: 120px;
+    height: 60px;
+    background-color: #067406;
+    border-radius: 8px;
+    color: white;
+}
+.container {
+    margin-left: 250px;
+    margin-top: 40px;
+    width: 90%;
+    
+}
+#edit_but {
+    width: 120px;
+    height: 60px;
+    background-color: #067406;
+    border-radius: 8px;
+    color: white;
+}
+#edit_old {
+    
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 1450px;
+}
+
+
+#delete_p {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 1600px;
+}
+#delete_but {
+      width: 120px;
+    height: 60px;
+    background-color: #740606;
+    border-radius: 8px;
+    color: white;
+}
+
+#register {
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: 70px;
+}
+
+#reg_but {
+    width: 120px;
+    height: 60px;
+    background-color: #067406;
+    border-radius: 8px;
+    color: white;
+}
+
+
+#login_b {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 70px;
+}
+
+#log_but {
+    width: 120px;
+    height: 60px;
+    background-color: #067406;
+    border-radius: 8px;
+    color: white;
+}
+

@@ -1,0 +1,20 @@
+<?php
+function get_categories() { 
+   global $link;
+    $sql  = 'SELECT * FROM `categories`';
+    
+    $result = mysqli_query($link, $sql);
+    $categories = mysqli_fetch_all($result, MYSQLI_ASSOC);
+    return $categories;
+}
+
+function get_post() {
+    global $link;
+    $sql  = 'SELECT * FROM `posts`';
+    $result = mysqli_query($link, $sql);
+    $posts = mysqli_fetch_all($result, MYSQLI_ASSOC);
+    return $posts;
+}
+
+
+
